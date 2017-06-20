@@ -1,3 +1,7 @@
-div {
-  display:inline-block;
+.top, .bottom {
+  background: #53A2BE;
+}
+
+.shoe1 {
+  display: inline;
 }
