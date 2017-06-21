@@ -1,6 +1,33 @@
+.top-nav a {
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+  display: block;
+  color: #53A2BE;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.bottom-nav a {
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+  display: block;
+  color: #53A2BE;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.top-nav a:hover, .bottom-nav a:hover {
+    color: black;
+}
+
 container {
   margin: 20px;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .top, .bottom {
