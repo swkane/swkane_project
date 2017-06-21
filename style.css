@@ -1,11 +1,50 @@
+container {
+  margin: 20px;
+  text-align: center;
+}
+
 .top, .bottom {
   background: #53A2BE;
+  padding-bottom: 40px;
 }
 
-.shoe1 {
-  display: inline;
+h1, h2, h5, p {
+  text-align: left;
+  margin-left: 320px;
+  margin-right: 320px;
+  color: white;
 }
 
-/*body {
-  margin: 20px;
-}*/
+.middle h2, .middle p {
+  color: black;
+}
+
+.description {
+  border-top: 2px dashed #40798C;
+  border-bottom: 2px dashed #40798C;
+  padding: 20px 0px;
+}
+
+.price {
+  font-size: 140%;
+}
+
+.buy {
+  background: white;
+  width: 100px;
+  height: 50px;
+  color: #53A2BE;
+}
+
+.rec {
+  text-align: center;
+  background: #A8E0FF;
+}
+
+h1, h5 {
+  line-height: 30%;
+}
+
+h5 {
+  color: #4C6085;
+}
