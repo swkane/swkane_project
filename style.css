@@ -9,7 +9,7 @@
   font-size: 15px;
 }
 
-.bottom-nav a {
+.top2-nav a {
   font-family: 'Ubuntu', sans-serif;
   float: left;
   display: block;
@@ -20,7 +20,7 @@
   font-size: 15px;
 }
 
-.top-nav a:hover, .bottom-nav a:hover {
+.top-nav a:hover, .top2-nav a:hover {
     color: black;
 }
 
@@ -74,4 +74,21 @@ h1, h5 {
 
 h5 {
   color: #4C6085;
+}
+
+footer p {
+  margin: 0px;
+  padding: 5px 16px;
+  color: #4C6085;
+}
+
+.bottom-nav a {
+  font-family: 'Ubuntu', sans-serif;
+  /*float: left;
+  display: block;*/
+  color: #53A2BE;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 15px;
 }
