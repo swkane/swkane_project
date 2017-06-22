@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sam's Sneakers</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <title>Sam's Sneakers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  </head>
-  <body>
-    <header>
+</head>
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="logo" width="60px">
+  </header>
+
+  <div class="top-nav" id="myTopnav">
+    <a href="#men">MEN</a>
+    <a href="#women">WOMEN</a>
+    <a href="#boys">BOYS</a>
+    <a href="#girls">GIRLS</a>
+    <a href="#customize">CUSTOMIZE</a>
+  </div>
+  <br><br>
+  <div class="top2-nav" id="myTop2nav">
+    <a href="#help">Help</a>
+    <a href="#account">My Account</a>
+    <a href="#cart"> <i class="fa fa-shopping-cart"></i>  Shopping Cart (2)</a>
+  </div>
+
+  <container>
+    <section class="top">
+      <p class="back">← BACK TO ALL SHOES</p>
+      <img src="images/shoe1.png" alt="shoe" height="300">
+      <h1>Quick Sneakers</h1>
+      <h5>SPRING/SUMMER 2017</h5>
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Read the reviews</a>
+      </p>
+      <p class="price">
+        <sup>$</sup>120<sup>00</sup><a class="button" href="#" title="Buy Now!">BUY NOW!</a>
+      </p>
+
+    </section>
+
+    <section class="middle">
+      <div class="tabs">
+        <nav class="navigation">
+          <a href="#" class="active" title="Product Details">Product Details</a>
+          <a href="#" class="mid-tab" title="Size &amp; Fit">Size &amp; Fit</a>
+          <a href="#" class="" title="Reviews">Reviews &starf;&starf;&starf;&starf;&star;</a>
+        </nav>
+      </div>
+      <h2>Exciting Topic</h2>
+      <p>Content here</p>
+
+      <h2>Find Your Shoe Size &amp; Fit</h2>
+      <p>Content here</p>
+
+      <h2>What Our Customers Are Saying!</h2>
+      <p>Don't take our word for it! ...</p>
+
+      <div class="rec">
+        <p class="sub-head">Shop Recommended Shoes</p>
+      </div>
+    </section>
+    <section class="bottom">
+      <img src="images/shoe2.png" alt="shoe" height="300">
+      <h3>Funny Sneakers</h3>
+      <h5>SPRING/SUMMER 2017</h5>
+      <p class="price">
+        <sup>$</sup>120<sup>00</sup>
+      </p>
+
+      <img src="images/shoe3.png" alt="shoe" height="300">
+      <h3>Nimble Sneakers</h3>
+      <h5>SPRING/SUMMER 2017</h5>
+      <p class="price">
+        <sup>$</sup>120<sup>00</sup>
+      </p>
+
+      <img src="images/shoe4.png" alt="shoe" height="300">
+      <h3>Cute Sneakers</h3>
+      <h5>SPRING/SUMMER 2017</h5>
+      <p class="price">
+        <sup>$</sup>120<sup>00</sup>
+      </p>
+    </section>
+  </container>
+
+  <footer>
+    <p>
       <img src="images/logo.jpg" alt="logo" width="60px">
-    </header>
+      <div class="bottom-nav" id="myBottomnav">
+        <a href="#men">MEN</a>
+        <a href="#women" class="active">WOMEN</a>
+        <a href="#boys">BOYS</a>
+        <a href="#girls">GIRLS</a>
+        <a href="#customize">CUSTOMIZE</a>
+      </div>
+    </p>
 
-    <div class="top-nav" id="myTopnav">
-      <a href="#men">MEN</a>
-      <a href="#women">WOMEN</a>
-      <a href="#boys">BOYS</a>
-      <a href="#girls">GIRLS</a>
-      <a href="#customize">CUSTOMIZE</a>
-    </div>
-    <br><br>
-    <div class="top2-nav" id="myTop2nav">
-      <a href="#help">Help</a>
-      <a href="#account">My Account</a>
-      <a href="#cart"> <i class="fa fa-shopping-cart"></i>  Shopping Cart (2)</a>
-    </div>
+    <p>
+      <a href="#">Shipping</a>|<a href="#">Terms &amp; Conditions</a> | Copyright 2017. Sam's Sneakers, LLC.
+    </p>
+  </footer>
 
-    <container>
-      <section class="top">
-        <p class="back">← BACK TO ALL SHOES</p>
-        <img src="images/shoe1.png" alt="shoe" height="300">
-        <h1>Quick Sneakers</h1>
-        <h5>SPRING/SUMMER 2017</h5>
-        <p class="description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Read the reviews</a>
-        </p>
-        <p class="price">
-          <sup>$ </sup>120<sup> 00</sup>           <button class="buy">BUY NOW!</button>
-        </p>
-
-      </section>
-
-      <section class="middle">
-        <h2>Exciting Topic</h2>
-        <p>Content here</p>
-
-        <h2>Find Your Shoe Size &amp; Fit</h2>
-        <p>Content here</p>
-
-        <h2>What Our Customers Are Saying</h2>
-        <p>Don't take our word for it! ...</p>
-
-        <div class="rec">
-          <h2>Shop Recommended Shoes</h2>
-        </div>
-
-
-      </section>
-
-      <section class="bottom">
-        <img src="images/shoe2.png" alt="shoe" height="300">
-        <h3>Funny Sneakers</h3>
-        <p><a href="#">$120.00</a></p>
-
-        <img src="images/shoe3.png" alt="shoe" height="300">
-        <h3>Funny Sneakers</h3>
-        <p><a href="#">$120.00</a></p>
-
-        <img src="images/shoe4.png" alt="shoe" height="300">
-        <h3>Funny Sneakers</h3>
-        <p><a href="#">$120.00</a></p>
-      </section>
-    </container>
-
-    <footer>
-      <p>
-        <img src="images/logo.jpg" alt="logo" width="60px">
-        <div class="bottom-nav" id="myBottomnav">
-          <a href="#men">MEN</a>
-          <a href="#women">WOMEN</a>
-          <a href="#boys">BOYS</a>
-          <a href="#girls">GIRLS</a>
-          <a href="#customize">CUSTOMIZE</a>
-        </div>
-      </p>
-
-      <p>
-         <a href="#">Shipping</a> | <a href="#">Terms &amp; Conditions</a> | Copyright 2017. Sam's Sneakers, LLC.
-      </p>
-    </footer>
-
-  </body>
+</body>
 </html>
