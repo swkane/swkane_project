@@ -39,12 +39,12 @@ header img {
 }
 
 container {
-  margin: 20px;
   font-family: 'Oswald', sans-serif;
 }
 
 .top, .bottom {
-  background: #53A2BE;
+  background: linear-gradient(to left, #53A2BE, #4C6085);
+  /*background: #53A2BE;*/
   padding-bottom: 40px;
   text-align: center;
   clear: both;
@@ -100,22 +100,10 @@ h1, h2, h3, h5, p {
   padding: 0px 4px;
 }
 
-
-
-.navigation {
-  margin-bottom: 0px;
-
-  padding: 0px 0px 0px 0px;
-}
-
 .reviews {
   float: right;
   padding: 20px 4px;
 
-}
-
-.mid-tab {
-  /*padding: 0px 16px;*/
 }
 
 .tabs a:hover {
