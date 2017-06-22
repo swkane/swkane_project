@@ -70,7 +70,7 @@ h1, h2, h3, h5, p {
 .navigation {
   margin-bottom: 50px;
   border-bottom: 1px solid #40798C;
-  /*padding: 0px 0px 10px 0px;*/
+  padding: 0px 0px 10px 0px;
 }
 
 .mid-tab {
@@ -78,7 +78,7 @@ h1, h2, h3, h5, p {
 }
 
 .tabs a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #40798C;
 }
 
 .middle h2, .middle p {
