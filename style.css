@@ -120,6 +120,15 @@ h1, h2, h3, h5, p {
   font-size: 35px;
 }
 
+.secondary {
+  font-size: 99%;
+}
+
+.middle p {
+  padding-bottom: 15px;
+  color: #4C6085;
+}
+
 .rec {
   background: #A8E0FF;
   padding: 3px 0px;
