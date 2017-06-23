@@ -194,7 +194,6 @@ h5 {
 }
 
 footer p {
-  margin: 0px;
   padding: 5px 16px;
   color: #4C6085;
   font-size: 90%;
@@ -202,7 +201,6 @@ footer p {
 }
 
 footer img {
-  display: inline;
   float: left;
   padding: 10px;
 }
@@ -215,14 +213,16 @@ footer a {
 
 footer .copyright {
   float: right;
-  display: inline;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }
 
 .bottom-nav a {
   font-family: 'Ubuntu', sans-serif;
   color: #53A2BE;
-  text-align: center;
   padding: 5px 16px;
   text-decoration: none;
   font-size: 15px;
+  display: inline;
 }
