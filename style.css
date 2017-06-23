@@ -43,14 +43,12 @@ container {
 }
 
 .top, .bottom {
-  background: linear-gradient(to left, #53A2BE, #4C6085);
-  /*background: #53A2BE;*/
+  background: linear-gradient(to left top, #53A2BE, #2A1460);
   padding-bottom: 40px;
-  text-align: center;
   clear: both;
 }
 
-h1, h2, h3, h5, p {
+.middle-content {
   text-align: left;
   margin-left: 250px;
   margin-right: 250px;
@@ -70,6 +68,7 @@ h1, h2, h3, h5, p {
   text-align: left;
   margin: 0px;
   padding: 40px 0px 10px 40px;
+  color: white;
 }
 
 .description a {
@@ -115,8 +114,8 @@ h1, h2, h3, h5, p {
 }
 
 .description {
-  border-top: 2px dashed #40798C;
-  border-bottom: 2px dashed #40798C;
+  border-top: 2px dashed #A8E0FF;
+  border-bottom: 2px dashed #A8E0FF;
   padding: 20px 0px;
 }
 
@@ -165,10 +164,24 @@ h1, h2, h3, h5, p {
 
 .bottom {
   padding-top: 60px;
+  text-align: center;
+}
+
+.bottom h3 {
+  font-size: 25px;
+}
+
+.bottom h5, .bottom h3  , .bottom p {
+  text-align: left;
 }
 
 .product {
   display: inline-block;
+  padding: 0px 30px;
+}
+
+.product img {
+  display: block;
 }
 
 h1, h2, h3, h5 {
@@ -177,7 +190,7 @@ h1, h2, h3, h5 {
 }
 
 h5 {
-  color: #4C6085;
+  color: #A8E0FF;
 }
 
 footer p {
@@ -185,12 +198,24 @@ footer p {
   padding: 5px 16px;
   color: #4C6085;
   font-size: 90%;
+  display: inline;
+}
+
+footer img {
+  display: inline;
+  float: left;
+  padding: 10px;
 }
 
 footer a {
   color: #4C6085;
   padding: 4px;
   font-size: 90%;
+}
+
+footer .copyright {
+  float: right;
+  display: inline;
 }
 
 .bottom-nav a {
