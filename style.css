@@ -38,7 +38,7 @@ header img {
   border-bottom: black;
 }
 
-container {
+.container {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -193,21 +193,27 @@ h5 {
   color: #A8E0FF;
 }
 
+footer {
+  padding: 15px;
+}
+
 footer p {
-  padding: 5px 16px;
   color: #4C6085;
   font-size: 90%;
   display: inline;
 }
 
+footer div {
+  display: inline;
+}
+
 footer img {
   float: left;
-  padding: 10px;
 }
 
 footer a {
   color: #4C6085;
-  padding: 4px;
+  padding: 6px;
   font-size: 90%;
 }
 
