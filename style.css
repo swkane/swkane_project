@@ -34,6 +34,12 @@ header img {
     color: black;
 }
 
+.cart {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
 .active {
   border-bottom: black;
 }
@@ -60,7 +66,7 @@ header img {
   padding: 30px;
 }
 
-.product-detail h1, .product-detail h3, .product-detail h5, .product-detail p {
+.product-info h1, .product-info h3, .product-info h5, .product-info p {
   margin: 0px 30px 30px 700px;
 }
 
@@ -75,7 +81,7 @@ header img {
   float: right;
 }
 
-.product-detail {
+.product-info {
   padding: 50px 10px;
 }
 
@@ -160,6 +166,9 @@ header img {
 .rec {
   background: #A8E0FF;
   padding: 3px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
 
 .bottom {

@@ -24,7 +24,7 @@
     <div class="top2-nav" id="myTop2nav">
       <a href="#help">Help</a>
       <a href="#account">My Account</a>
-      <a href="#cart"> <i class="fa fa-shopping-cart"></i>  Shopping Cart (2)</a>
+      <a href="#cart"> <i class="fa fa-shopping-cart"></i>  Shopping Cart (<p class="cart"></p>)</a>
     </div>
 
   </header>
@@ -33,14 +33,14 @@
     <section class="top">
       <p class="back">← BACK TO ALL SHOES</p>
       <img src="images/shoe1.png" alt="shoe" height="300">
-      <div class="product-detail">
+      <div class="product-info">
         <h1>Quick Sneakers</h1>
         <h5>SPRING/SUMMER 2017</h5>
         <p class="description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Read the reviews</a>
         </p>
         <p class="price">
-          <sup>$</sup>120<sup>00</sup><a class="button" href="#" title="Buy Now!">BUY NOW!</a>
+          <sup>$</sup>120<sup>00</sup><a class="button buy-now" href="#" title="Buy Now!">BUY NOW!</a>
         </p>
       </div>
 
@@ -50,26 +50,33 @@
     <section class="middle">
       <div class="tabs">
         <nav class="navigation">
-          <a href="#" class="active" title="Product Details">Product Details</a>
-          <a href="#" class="mid-tab" title="Size &amp; Fit">Size &amp; Fit</a>
+          <a href="#" class="product-detail active" title="Product Details">Product Details</a>
+          <a href="#" class="size mid-tab" title="Size &amp; Fit">Size &amp; Fit</a>
           <a href="#" class="reviews" title="Reviews">Reviews &starf;&starf;&starf;&starf;&star;</a>
         </nav>
       </div>
 
       <div class="middle-content">
-        <h2>Exciting Topic</h2>
-        <p>Content here</p>
+        <div class="tab1">
+          <h2>Exciting Topic</h2>
+          <p>Content here</p>
 
-        <h2 class="secondary">Exciting Topic</h2>
-        <p>Content here</p>
+          <h2 class="secondary">Exciting Topic</h2>
+          <p>Content here</p>
+        </div>
 
-        <h2>Find Your Shoe Size &amp; Fit</h2>
-        <p>Content here</p>
+        <div class="tab2">
+          <h2>Find Your Shoe Size &amp; Fit</h2>
+          <p>Content here</p>
+        </div>
 
-        <h2>What Our Customers Are Saying!</h2>
-        <p>Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
+        <div class="tab3">
+          <h2>What Our Customers Are Saying!</h2>
+          <p>Don't take our word for it! Read what our customers have been saying about this product. We guarantee you won't be disappointed in your purchase.</p>
+        </div>
 
       </div>
+    </div>
 
       <div class="rec">
         <p class="sub-head">Shop Recommended Shoes</p>
@@ -106,7 +113,7 @@
       </div>
 
     </section>
-  </div>
+
 
   <footer>
 
@@ -118,12 +125,18 @@
         <a href="#girls">GIRLS</a>
         <a href="#customize">CUSTOMIZE</a>
       </div>
-  
+
       <p class="copyright">
         <a href="#">Shipping</a>|<a href="#">Terms &amp; Conditions</a> | Copyright 2017. Sam's Sneakers, LLC.
       </p>
 
   </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js">
 
+    </script>
 </body>
 </html>
